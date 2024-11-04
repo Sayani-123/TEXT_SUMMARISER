@@ -1,69 +1,67 @@
-Text-Summarization
-Using Spacy and NLTK module with TF-IDF algorithm for text-summarisation. This code will give you the summary of inputted article. You can input the text by typing (or copy-paste) or from Txt file, PDF file or from Wikipedia Page Url.
+# Text Summarization
 
-Purpose :-
-To save time while reading by summarizing a large article or text into fewer lines.
+## Overview
 
-Description :-
-It usage Term Frequency-Inverse Document Frequency (TF-IDF) algorithm for summarising the article.
+This project provides a text summarization tool that uses the Term Frequency-Inverse Document Frequency (TF-IDF) algorithm to condense long articles or texts into shorter summaries. The program supports multiple input methods, making it versatile and user-friendly.
 
-Features :-
-You can read the text of your long article in 4 ways :-
+### Purpose
 
-InputTextWays
+To save time while reading by summarizing large articles or texts into fewer lines.
 
-By typing text on your own (or copy-paste).
-Reading the text from .txt file.
-Reading the text from .pdf file.(You can choose either to get summary of entire pdf or select any page interval).
-PdfInput
+## Features
 
-Reading the text from wikipedia page (All you have to do is to provide the url of that page. Program will automatically scrap the text and summarise it for you).
-Don't worry about Code length xD. It might look lengthy but there are lot of comments for explaination of code(almost 70 comments) and extra spacing for more readability.
+You can input the text in four different ways:
 
-Output :-
-This is some of the summary text return by the program. Main article was loaded by Wikipedia Page Url -> https://en.wikipedia.org/wiki/Artificial_intelligence
-Summary
+1. **Typing Text**: Manually input or copy-paste the text.
+2. **From .txt File**: Load text from a plain text file.
+3. **From .pdf File**: Summarize an entire PDF or select a specific page range for summarization.
+4. **From Wikipedia Page**: Provide the URL of a Wikipedia page, and the program will automatically scrape the text and summarize it for you.
 
-Comparison of Original Content vs Summarized content.
-OriginalvsSummaryWordCount
+### Output
 
-Requirements :-
-Python3
-Spacy Module (short, medium, or long any type is sufficient)
-NLTK Module
-PyPdf2
-Beautiful Soup (bs4)
-urllib (already available with python itself, no need for external installation)
-How to install Requirements :-
-Python3 can be installed from their official site https://www.python.org/ . Or you can use anaconda environment.
-Spacy can be installed by For Anaconda Environment >
-conda install -c conda-forge spacy
+The program generates a summary of the provided article. It also compares the word count of the original content versus the summarized content. 
 
-python3 -m spacy download en
-For other environments >
+**Example Output**:
 
-pip3 install spacy
 
-python3 -m spacy download en
-NLTK can be installed by For Anaconda Environment >
-conda install -c anaconda nltk
-For other environments >
+## Requirements
 
-pip3 install nltk
-PyPdf2 can be installed by For Anaconda Environment >
-conda install -c conda-forge pypdf2
-For other environments >
+- Python 3.x
+- SpaCy Module (short, medium, or long model)
+- NLTK Module
+- PyPDF2
+- Beautiful Soup (bs4)
+- urllib (included with Python)
 
-pip3 install PyPDF2
-Beautiful Soup (bs4) For Anaconda Environment >
-conda install -c anaconda beautifulsoup4
-For other environments >
+### Installation Instructions
 
-pip3 install beautifulsoup4`
-Getting Started :-
-Download or clone repository.
+1. **Python**: Install Python 3 from the [official site](https://www.python.org/) or use an Anaconda environment.
 
-Open cmd or terminal in same directory where Text-Summarizer.py file is stored and then run it by followng command :-
+2. **Install Dependencies**:
+   - For **Anaconda Environment**:
+     ```bash
+     conda install -c conda-forge spacy
+     conda install -c anaconda nltk
+     conda install -c conda-forge pypdf2
+     conda install -c anaconda beautifulsoup4
+     ```
+   - For **Other Environments**:
+     ```bash
+     pip3 install spacy
+     pip3 install nltk
+     pip3 install PyPDF2
+     pip3 install beautifulsoup4
+     ```
+   - **Download SpaCy English Model**:
+     ```bash
+     python3 -m spacy download en
+     ```
 
-python3 Text-Summarizer.py
-Now just follow along with the program.
+## Getting Started
+
+1. Download or clone the repository.
+2. Open the command prompt or terminal in the same directory where the `text1.py` file is stored.
+3. Run the following command:
+   ```bash
+   python3 text1.py
+4.Follow the prompts in the program to summarize your text.   
