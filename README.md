@@ -22,9 +22,9 @@ You can input the text in four different ways:
 The program generates a summary of the provided article. It also compares the word count of the original content versus the summarized content. 
 
 **Example Output**:
-![type of text Image](output1.png)
-![Summary part 1 Image](output2.png)
-![Summary part 2 Image](output3.png)
+![type of text Image](output1.jpg)
+![Summary part 1 Image](output2.jpg)
+![Summary part 2 Image](output3.jpg)
 
 ## Requirements
 
