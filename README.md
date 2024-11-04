@@ -22,7 +22,9 @@ You can input the text in four different ways:
 The program generates a summary of the provided article. It also compares the word count of the original content versus the summarized content. 
 
 **Example Output**:
-
+![type of text Image](output1.png)
+![Summary part 1 Image](output2.png)
+![Summary part 2 Image](output3.png)
 
 ## Requirements
 
@@ -56,12 +58,3 @@ The program generates a summary of the provided article. It also compares the wo
      ```bash
      python3 -m spacy download en
      ```
-
-## Getting Started
-
-1. Download or clone the repository.
-2. Open the command prompt or terminal in the same directory where the `text1.py` file is stored.
-3. Run the following command:
-   ```bash
-   python3 text1.py
-4.Follow the prompts in the program to summarize your text.   
